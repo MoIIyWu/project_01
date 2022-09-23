@@ -10,6 +10,7 @@ function resolveData(obj) {
 // const res = resolveData({ name: 'zs', age: 20 })
 // console.log(res)
 
+
 const myAjax = ({ method = 'get', url, data, success }) => {
     const xhr = new XMLHttpRequest()
     const queryString = resolveData(data)
